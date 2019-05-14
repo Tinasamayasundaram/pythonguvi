@@ -1,5 +1,5 @@
-val=int(input())
-if(val%2==0):
+va=int(input())
+if(va%2==0):
     print("Even")
-elif(val%2!=0):
+elif(va%2!=0):
     print("Odd")
