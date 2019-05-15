@@ -1,0 +1,11 @@
+n=int(input())
+sum=0
+temp=n
+while(n>0):
+    digi=n%10
+    sum+=digi**3
+    n=n//10
+if(temp==sum):
+    print("yes")
+else:
+    print("no")
