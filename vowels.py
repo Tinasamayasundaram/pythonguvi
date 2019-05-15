@@ -1,5 +1,5 @@
 ch=input()
-if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'or ch=='A' or ch=='E' or ch=='I' or ch=='O' or ch=='U'):
+if ch in ['a','e','i','o','u','A','E','I','O','U'];
     print("Vowel")
 else:
     print("Consonant")
