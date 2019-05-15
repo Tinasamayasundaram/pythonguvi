@@ -2,8 +2,8 @@ N=int(input())
 temp=N
 rev=0
 while(N>0):
-    dig=N%10
-    rev=rev*10+dig
+    digi=N%10
+    rev=rev*10+digi
     N=N//10
 if(temp==rev):
     print("yes")
