@@ -1,6 +1,5 @@
-n=int(input())
-power=n*n
-if(power%2==0):
+at=int(input())
+if(at&(at-1)==0):
     print("yes")
 else:
     print("no")
