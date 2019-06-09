@@ -1,5 +1,5 @@
-a,b=input().split()
-a=int(a)
-b=int(b)
-sum=a+b
+at,bt=input().split()
+at=int(at)
+bt=int(bt)
+sum=at+bt
 print(sum)
